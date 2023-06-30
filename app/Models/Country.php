@@ -18,6 +18,6 @@ class Country extends Model
 
     public function teams_size_avg()
     {
-        return $this->hasMany(Team::class)->avg('size') ?: 0;;
+        return $this->hasMany(Team::class)->avg('size') ?: 0;
     }
 }
